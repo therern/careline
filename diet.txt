@@ -1,0 +1,115 @@
+<html>
+<head>
+<title> Diet </title>
+
+<style> 
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #425F57;
+    font-size: 23px;
+    opacity:0.65;
+} 
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #749F82;
+    font-size: 23px;
+    opacity:0.65;
+} 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+
+</head>
+<body>
+<h2> Introduction </h2>
+<h3> 
+In nutrition, diet is the sum of food consumed by a person or other organism. The word diet often implies the use of specific intake of 
+nutrition for health or weight-management reasons (with the two often being related). Although humans are omnivores, each culture and each 
+person holds some food preferences or some food taboos. This may be due to personal tastes or ethical reasons. Individual dietary choices 
+may be more or less healthy. 
+</h3>
+<h3> 
+Complete nutrition requires ingestion and absorption of vitamins, minerals, essential amino acids from protein and essential fatty acids 
+from fat-containing food, also food energy in the form of carbohydrate, protein, and fat. Dietary habits and choices play a significant role 
+in the quality of life, health and longevity. 
+</h3>
+<img src="snack-bento-box-1296x728-header.webp" alt="Diet A" class="center">
+<h3>
+     
+</h3>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/mMHVEFWNLMc" class="center">
+</iframe>
+
+<h2> Health Benefits </h2>
+<h3> 
+A healthy diet can improve and maintain health, which can include aspects of mental and physical health. Specific diets, such as the 
+DASH diet, can be used in treatment and management of chronic conditions. 
+</h3>
+<img src="best-and-worst-diet-plans-for-weight-loss-1440x810.jpg" alt="Diet B" class="center">
+<h2> Dietary choices </h2>
+<h3> 
+Exclusionary diets are diets with certain groups or specific types of food avoided, either due to health considerations or by choice. Many 
+do not eat food from animal sources to varying degrees (e.g. flexitarianism, pescetarianism, vegetarianism, veganism) for health reasons, 
+issues surrounding morality, or to reduce their personal impact on the environment, although some of the public assumptions about which 
+diets have lower impacts are known to be incorrect. People on a balanced vegetarian and vegan diet can get all necessary nutrients, 
+but may need to specifically focus on consumption of nutrients like protein, iron, calcium, zinc, and vitamin B12. Raw foodism and 
+intuitive eating are other approaches to dietary choices. Education, income, local availability, and mental health are all major 
+factors for dietary choices. 
+</h3>
+<img src="5fbbe5ee32f2170011f70a5b.webp" alt="Diet C" class="center">
+<h2> Examples of Diets </h2>
+<h2>
+1. Atkins diet
+</h2>
+<h3>
+The Atkins diet, or Atkins nutritional approach, focuses on controlling the levels of insulin in the body through a low-carbohydrate diet.
+If people consume large amounts of refined carbohydrates, their insulin levels rise and fall rapidly. Rising insulin levels trigger the body 
+to store energy from the food that is consumed, making it less likely that the body will use stored fat as a source of energy.
+Therefore, people on the Atkins diet avoid carbohydrates but can eat as much protein and fat as they like.
+Although popular for some time, the Atkins Diet comes with certain risks. Individuals considering the Atkins Diet should speak with their doctor.
+</h3>
+<img src="atkins.webp" alt="Atkin Diet" class="center">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/AGhbUc2mais" class="center">
+</iframe>
+<h2>
+2. Ketogenic diet
+</h2>
+<h3>
+The ketogenic diet has been used for decades as a treatment for epilepsy and is also being explored for other uses. It involves reducing carbohydrate 
+intake and upping fat intake. It sounds contrary to common sense, but it allows the body to burn fat as a fuel, rather than carbohydrates.
+Healthy fats, such as those in avocados, coconuts, Brazil nuts, seeds, oily fish, and olive oil are liberally added to the diet to maintain an overall emphasis on fat.
+The diet causes the break down of fat deposits for fuel and creates substances called ketones through a process called ketosis. This diet has risks including ketoacidosis 
+for people with type 1 diabetes, however, and may result in diabetic coma and death. Although most studies are 2 years or less, there is some promising research in relation 
+to diabetes management, metabolic health, weight loss, and body composition change.
+</h3>
+<img src="ingredients-healthy-eating-food-eggs-salmon-vegetables-1296x728-header-1.webp" alt="Atkin Diet" class="center">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Q89St6BTxIQ" class="center">
+</iframe>
+<h2>
+2. Vegan diet
+</h2>
+<h3>
+Veganism is more of a way of life and a philosophy than a diet. A vegan does not eat anything that is animal-based, including eggs, dairy, and honey. 
+Vegans do not usually adopt veganism just for health reasons, but also for environmental, ethical, and compassionate reasons.
+Vegans believe that modern intensive farming methods are bad for our environment and unsustainable in the long-term. If everybody ate plant-based food, 
+the environment would benefit, animals would suffer less, more food would be produced, and people would generally enjoy better physical and mental health, vegans say.
+</h3>
+<img src="vegan-diet-guide-1296x728.jpg" alt="Atkin Diet" class="center">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/RdnwI_Jy818" class="center">
+</iframe>
+</body>
+</html>

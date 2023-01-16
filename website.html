@@ -1,0 +1,244 @@
+<html>
+<head>
+<!----Adjust size in different screens--->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;  height: 100%; margin: 0;}
+.mySlides {display: none;}
+.image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 20%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  box-sizing: border-box; 
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.border{
+  width: 100px;
+  height: 50px;
+  border: #717171;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 5}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.photo{
+  float: left;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar { text-align: center;overflow: hidden;font-family: Arial, Helvetica, sans-serif;}
+
+.home {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.about{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.shop{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.diet{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.sports{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.sleep{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+.vertical {
+border-left: 6px solid black;
+height: 200px;
+position:absolute;
+left: 50%;
+}
+
+</style>
+</head>
+<body>
+    <img class="image" src="Careline.jpg" >
+    <div class="navbar">
+        <a href="#home" class="home">Home</a>
+        <a href="#news" class="about">About</a>
+        <a href="Shop.html" class="shop">Shop</a>
+        <a href="Diet.html" class="diet">Diet</a>
+        <a href="Sports.html" class="sports">Sports</a>
+        <a href="Sleep.html" class="sleep">Sleep</a>
+      </div>
+</style>
+</head>
+<body>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="vegetable.jpg" style="width: 100%; height: 80%">
+  <div class="text">About us</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="vegetable 2.jpg" style="width: 100%; height: 80%">
+   <div class="text">vegetable 2</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="vegetable 3.jpg" style="width: 100%; height: 80%">
+  <div class="text">vegetable 3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="vegetable 4.jpg" style="width: 100%; height: 80%">
+  <div class="text">vegetable 4</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="vegetable 5.jpg" style="width: 100%; height: 80%">
+  <div class="text">vegetable 5</div>
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<hr size="8" width="100%" color="red">
+<div class="vertical"></div>
+<p><b>Contact us</b></p>
+<p>Hp: </p>
+<p>Address:</p>
+<p>Email:</p>
+<div style="bottom: 144;
+            left: 700;
+            position: relative;
+            z-index: 1;
+            visibility: show;"><b>
+Subscribe
+</b>
+<form action="action_page.php" method="post">
+  <label for="first_name">First Name:</label><br>
+  <input type="text" name="first_name"><br>
+  <label for="last_name">Last Name:</label><br>
+  <input type="text" name="last_name"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <input type="submit" value="Submit">
+</form> 
+</b>
+</div>
+</body>
+</html>
